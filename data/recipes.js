@@ -1,0 +1,53 @@
+export const recipes = [
+  {
+    id: "1",
+    name: "Estofado",
+    image: require("../assets/estofado.jpg"),
+    breveDescripcion: "Es una comida clásica, ¡que llena el alma!",
+    description: "El estofado es un plato reconfortante, ideal para los días fríos o para compartir en familia. Su preparación lenta y su combinación de carnes tiernas con verduras hacen de este guiso una comida nutritiva y sabrosa. Es muy común encontrarlo en los hogares argentinos, ya que es rendidor, económico y permite múltiples variantes según los ingredientes disponibles.",
+    historia: "Es un clásico en la gastronomía argentina por su fácil preparación. A base de papa, tomate, cebolla, zanahoria, entre otras verduras, y piezas de carne, el estofado es un plato popular que también se sirve en diversas partes de Latinoamérica. Sus orígenes son europeos y con el paso del tiempo, pasó a las filas de la cocina fusión. Países como España e Italia son pioneros en la técnica de la “stuffa” o de estofar, que consiste en hervir a fuego lento carne o pollo con verduras en su propio jugo. El estofado tiene orígenes europeos, como muchos de los platos que vinieron en las valijas de los conquistadores. Desembarcaron con su historia y plantaron la bandera en el lugar indicado, para luego ser transformado y convertirse en lo que ahora conocemos como la cocina fusión de nuestros días.   Si bien es cierto que hemos popularizado el estofado de pollo, como plato familiar, es en la carne donde residen sus antecedentes. Los toros de las corridas de antaño, ya tenían destino en la olla, entre verduras caldosas y algunas hierbas aromáticas.",
+    receta: "Cocinar un estofado implica dorar cebolla, ajo y otras verduras como zanahoria y apio para formar una base aromática. Luego se sella la carne, usualmente cortes duros, para conservar su sabor y se añade a la olla con caldo, vino o agua, junto con especias como laurel, pimienta y tomillo. Se deja cocer lentamente, a fuego bajo y tapado, durante una o dos horas para que la carne se ablande y los sabores se integren. Cerca del final, se pueden sumar papas u otras verduras. El resultado es un plato espeso, cálido y lleno de sabor.",
+  }, 
+  {
+    id: "2",
+    name: "Polenta",
+    image: require("../assets/polenta.jpg"),
+    breveDescripcion : "Ideal para días lluviosos.",
+    description: "La polenta es uno de esos platos que nos transporta a la cocina de la abuela, con su sabor suave, su textura envolvente y su versatilidad. Ideal para una cena rápida entre semana o un plato de lujo, para es una comida hecha con harina de maíz hervida, originaria de Italia y muy difundida en Argentina. ",
+    historia : "Después del descubrimiento de América y de la importación por parte de los europeos de algunos alimentos hasta entonces desconocidos, como el maíz, se abandonó el trigo para utilizar este cereal, mucho más maleable, en la elaboración de la polenta.",
+    receta: " Cocinarla es muy sencillo: solo hay que cocinar la sémola en agua muy caliente con sal. Dependiendo un poco de la variedad de maíz y cómo haya sido procesado, el tiempo total de cocción puede extenderse desde 30 minutos hasta casi una hora. Usando polenta precocida apenas necesitaremos entre uno y cinco minutos."
+  },
+  {
+    id: "3",
+    name: "Milanesa de Pollo, con Puré",
+    image: require("../assets/milanesa.jpg"),
+    breveDescripcion: "Nada más argentino que una milanesa.",
+    description: "La milanesa es un filete, normalmente de carne vacuna — pero también puede ser de otras carnes — empanado, el cual se cocina frito o al horno. Por extensión, se llama milanesa a cualquier rebanada de un ingrediente rebozado y cocido de manera similar, por lo que existen milanesas de cerdo, de pescado, de soja, de berenjena o de mozzarella, entre otros ingredientes. ",
+    historia: "La polémica en cuanto a qué país fue el inventor de la milanesa ha durado mucho y perdura, aunque todo parece indicar que el origen de este plato es lombardo (región italiana cuya capital es Milán), ya que su nombre en español refiere a ella. En Italia, se la conoce como “cotoletta alla milanese” y, a decir verdad, en cada ciudad en la que se prepara este suculento plato se lo conoce como “cotoletta” al estilo de “la ciudad en la que se la prepare”.",
+    receta: "La preparación de una milanesa frita comienza con filetes finos de carne, que se condimentan y, si se quiere, se dejan unos minutos reposar con el ajo y perejil picado. Luego se pasan por huevo batido con sal y condimentos, y después por pan rallado, presionando bien para que se adhiera. Con el aceite bien caliente en una sartén, se fríen hasta que estén doradas y crocantes de ambos lados. Finalmente, se escurren sobre papel absorbente para quitar el exceso de aceite.",
+  },
+  {
+    id: "4",
+    name: "Marineras de Carne, con Puré",
+    image: require("../assets/marinera.jpg"),
+    breveDescripcion: "Ideal para compartir con la familia",
+    description: "Las marineras de carne son una deliciosa receta argentina que consiste en una mezcla de carne picada con cebolla, condimentos y pan rallado, formada en pequeñas porciones y cocida al horno o a la parrilla. El origen de la marinera de carne se relaciona con la milanesa, un plato que tiene sus orígenes en Milán, Italia, y que fue llevado a América Latina por inmigrantes italianos durante el siglo XIX.",
+    receta: "En Argentina y Paraguay, este plato se adaptó a las preferencias locales y se convirtió en un clásico de la cocina cotidiana. La marinera de carne se prepara con filetes finos de carne vacuna, que se salpimientan y, si se desea, se dejan unos minutos con ajo picado. Luego se pasan por una mezcla de huevo batido con perejil, sal y un poco de harina, formando una masa ligera. Los filetes se sumergen bien en esa mezcla y se fríen en aceite caliente hasta que estén dorados y firmes. Se escurren sobre papel absorbente antes de servir.",
+  },
+  {
+    id: "5",
+    name: "Guiso",
+    image: require("../assets/guiso.jpg"),
+    breveDescripcion: "Una maravilla en invierno.",
+    description: "Guiso es un concepto que hace referencia a la comida guisada; es decir, aquella que se prepara con salsa después de haberla rehogado y que suele incluir ingredientes como trozos de carne, papas (patatas) y diversas especias. Podría definirse el guiso como un tipo de cocción que emplea un medio semi-graso. Hay registros históricos que demuestran que los guisos ya se consumían en el siglo XV en la región mediterránea. La primera vez que la palabra guiso apareció escrita fue en el año 1477, en un recetario compilado por Ruperto de Nola. Este catalán es famoso por haber escrito uno de los primeros libros de cocina en Europa llamado El libro de los guisados; allí es posible leer alguna de las primeras recetas de guiso.",
+    receta: " El guiso se prepara dorando cebolla, ajo y otras verduras como zanahoria y papa en una olla con aceite. Luego se añade carne en trozos y se dora junto a los vegetales. Se incorpora puré de tomate, condimentos como sal, pimentón y laurel, y se cubre todo con agua o caldo. Se cocina a fuego lento hasta que la carne esté tierna y los sabores se integren. Se puede agregar arroz, fideos o legumbres y se cocina hasta que todo esté bien cocido",
+  },
+  {
+    id: "6",
+    name: "Flan con Dulce de Leche",
+    image: require("../assets/flan.jpg"),
+    breveDescripcion: "¡El mejor postre!",
+    description: "El flan (del francés flan) es un postre de origen francés elaborado con una natilla teniendo como ingredientes principales yemas de huevos, un poco de clara a veces, leche entera y azúcar que luego es refrigerado para obtener una textura cremosa y gelatinosa. El flan tiene sus orígenes en la antigua Roma, donde se conocía como tyropatina, una mezcla de leche, miel y huevos que era popular entre los romanos. Este plato evolucionó con el tiempo y, durante la Edad Media, los europeos añadieron caramelo para crear lo que hoy conocemos como flan. La versión dulce del flan se alineaba con los requisitos de los días de Cuaresma en Europa, ya que no contenía carne. El flan llegó a América a través de la conquista española, y en Argentina se le agregó la crema y el dulce de leche para hacer el flan mixto.",
+    receta: "El flan se prepara mezclando huevos, leche y azúcar, a veces con esencia de vainilla para dar sabor. Se cocina aparte un caramelo con azúcar hasta que tome color dorado, y se vierte en el fondo del molde. Luego se agrega la mezcla del flan sobre el caramelo y se cocina a baño maría, en horno o en olla, hasta que cuaje. Se deja enfriar, se desmolda con cuidado y se sirve frío, solo o con crema o dulce de leche",
+  },
+];
